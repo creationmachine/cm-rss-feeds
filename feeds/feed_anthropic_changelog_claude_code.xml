@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:09:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 04:43:14 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1685,6 +1685,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2137</guid>
       <category>Changelog</category>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.38</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed VS Code terminal scroll-to-top regression introduced in 2.1.37&lt;/li&gt;&lt;li&gt;Fixed Tab key queueing slash commands instead of autocompleting&lt;/li&gt;&lt;li&gt;Fixed bash permission matching for commands using environment variable wrappers&lt;/li&gt;&lt;li&gt;Fixed text between tool uses disappearing when not using streaming&lt;/li&gt;&lt;li&gt;Fixed duplicate sessions when resuming in VS Code extension&lt;/li&gt;&lt;li&gt;Improved heredoc delimiter parsing to prevent command smuggling&lt;/li&gt;&lt;li&gt;Blocked writes to `.claude/skills` directory in sandbox mode&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</guid>
+      <category>Changelog</category>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
