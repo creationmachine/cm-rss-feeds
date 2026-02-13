@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 04:37:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 08:12:03 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1701,6 +1701,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</guid>
       <category>Changelog</category>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.41</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2141</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed AWS auth refresh hanging indefinitely by adding a 3-minute timeout&lt;/li&gt;&lt;li&gt;Added `claude auth login`, `claude auth status`, and `claude auth logout` CLI subcommands&lt;/li&gt;&lt;li&gt;Added Windows ARM64 (win32-arm64) native binary support&lt;/li&gt;&lt;li&gt;Improved `/rename` to auto-generate session name from conversation context when called without arguments&lt;/li&gt;&lt;li&gt;Improved narrow terminal layout for prompt footer&lt;/li&gt;&lt;li&gt;Fixed file resolution failing for @-mentions with anchor fragments (e.g., `@README.md#installation`)&lt;/li&gt;&lt;li&gt;Fixed FileReadTool blocking the process on FIFOs, `/dev/stdin`, and large files&lt;/li&gt;&lt;li&gt;Fixed background task notifications not being delivered in streaming Agent SDK mode&lt;/li&gt;&lt;li&gt;Fixed cursor jumping to end on each keystroke in classifier rule input&lt;/li&gt;&lt;li&gt;Fixed markdown link display text being dropped for raw URL&lt;/li&gt;&lt;li&gt;Fixed auto-compact failure error notifications being shown to users&lt;/li&gt;&lt;li&gt;Fixed permission wait time being included in subagent elapsed time display&lt;/li&gt;&lt;li&gt;Fixed proactive ticks firing while in plan mode&lt;/li&gt;&lt;li&gt;Fixed clear stale permission rules when settings change on disk&lt;/li&gt;&lt;li&gt;Fixed hook blocking errors showing stderr content in UI&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2141</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
