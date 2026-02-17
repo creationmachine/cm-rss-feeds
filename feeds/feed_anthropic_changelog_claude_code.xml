@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 12:08:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 16:18:27 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1729,7 +1729,7 @@
     <item>
       <title>v2.1.44</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed auth refresh errors&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed ENAMETOOLONG errors for deeply-nested directory paths&lt;/li&gt;&lt;li&gt;Fixed auth refresh errors&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144</guid>
       <category>Changelog</category>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
