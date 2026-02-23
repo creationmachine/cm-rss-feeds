@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 16:16:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 20:11:49 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1493,6 +1493,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-code-security</guid>
       <category>Announcements</category>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detecting and preventing distillation attacks</title>
+      <link>https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</link>
+      <description>Detecting and preventing distillation attacks</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
