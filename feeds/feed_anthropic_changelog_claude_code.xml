@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Mar 2026 20:09:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 00:07:12 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1957,6 +1957,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2179</guid>
       <category>Changelog</category>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.80</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2180</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `rate_limits` field to statusline scripts for displaying Claude.ai rate limit usage (5-hour and 7-day windows with `used_percentage` and `resets_at`)&lt;/li&gt;&lt;li&gt;Added `source: 'settings'` plugin marketplace source — declare plugin entries inline in settings.json&lt;/li&gt;&lt;li&gt;Added CLI tool usage detection to plugin tips, in addition to file pattern matching&lt;/li&gt;&lt;li&gt;Added `effort` frontmatter support for skills and slash commands to override the model effort level when invoked&lt;/li&gt;&lt;li&gt;Added `--channels` (research preview) — allow MCP servers to push messages into your session&lt;/li&gt;&lt;li&gt;Fixed `--resume` dropping parallel tool results — sessions with parallel tool calls now restore all tool_use/tool_result pairs instead of showing `[Tool result missing]` placeholders&lt;/li&gt;&lt;li&gt;Fixed voice mode WebSocket failures caused by Cloudflare bot detection on non-browser TLS fingerprints&lt;/li&gt;&lt;li&gt;Fixed 400 errors when using fine-grained tool streaming through API proxies, Bedrock, or Vertex&lt;/li&gt;&lt;li&gt;Fixed `/remote-control` appearing for gateway and third-party provider deployments where it cannot function&lt;/li&gt;&lt;li&gt;Fixed `/sandbox` tab switching not responding to Tab or arrow keys&lt;/li&gt;&lt;li&gt;Improved responsiveness of `@` file autocomplete in large git repositories&lt;/li&gt;&lt;li&gt;Improved `/effort` to show what auto currently resolves to, matching the status bar indicator&lt;/li&gt;&lt;li&gt;Improved `/permissions` — Tab and arrow keys now switch tabs from within a list&lt;/li&gt;&lt;li&gt;Improved background tasks panel — left arrow now closes from the list view&lt;/li&gt;&lt;li&gt;Simplified plugin install tips to use a single `/plugin install` command instead of a two-step flow&lt;/li&gt;&lt;li&gt;Reduced memory usage on startup in large repositories (~80 MB saved on 250k-file repos)&lt;/li&gt;&lt;li&gt;Fixed managed settings (`enabledPlugins`, `permissions.defaultMode`, policy-set env vars) not being applied at startup when `remote-settings.json` was cached from a prior session&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2180</guid>
+      <category>Changelog</category>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
