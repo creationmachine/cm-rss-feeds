@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2026 00:06:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 04:47:32 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2005,6 +2005,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2186</guid>
       <category>Changelog</category>
       <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.87</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2187</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed messages in Cowork Dispatch not getting delivered&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2187</guid>
+      <category>Changelog</category>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
