@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Apr 2026 20:07:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 00:07:29 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -75,14 +75,6 @@
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Feb 23, 2026AlignmentThe persona selection model</title>
-      <link>https://www.anthropic.com/research/persona-selection-model</link>
-      <description>Feb 23, 2026AlignmentThe persona selection model</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/persona-selection-model</guid>
-      <category>Research</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Feb 25, 2026AlignmentAn update on our model deprecation commitments for Claude Opus 3</title>
       <link>https://www.anthropic.com/research/deprecation-updates-opus-3</link>
       <description>Feb 25, 2026AlignmentAn update on our model deprecation commitments for Claude Opus 3</description>
@@ -97,6 +89,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/labor-market-impacts</guid>
       <category>Research</category>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mar 13, 2026InterpretabilityA “diff” tool for AI: Finding behavioral differences in new models</title>
+      <link>https://www.anthropic.com/research/diff-tool</link>
+      <description>Mar 13, 2026InterpretabilityA “diff” tool for AI: Finding behavioral differences in new models</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/diff-tool</guid>
+      <category>Research</category>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mar 23, 2026ScienceVibe physics: The AI grad student</title>
