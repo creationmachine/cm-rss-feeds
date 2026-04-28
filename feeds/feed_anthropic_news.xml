@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 12:29:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 16:34:13 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1645,6 +1645,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
       <category>Announcements</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for Creative Work</title>
+      <link>https://www.anthropic.com/news/claude-for-creative-work</link>
+      <description>Claude for Creative Work</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-creative-work</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
