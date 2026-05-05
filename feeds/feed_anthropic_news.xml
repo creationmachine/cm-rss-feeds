@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2026 12:18:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 16:33:14 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1661,6 +1661,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
       <category>Announcements</category>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents for financial services</title>
+      <link>https://www.anthropic.com/news/finance-agents</link>
+      <description>Agents for financial services</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/finance-agents</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
