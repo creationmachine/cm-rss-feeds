@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 20:19:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 00:19:41 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2277,6 +2277,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21136</guid>
       <category>Changelog</category>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.137</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21137</link>
+      <description>&lt;ul&gt;&lt;li&gt;[VSCode] Fixed extension failing to activate on Windows&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21137</guid>
+      <category>Changelog</category>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
