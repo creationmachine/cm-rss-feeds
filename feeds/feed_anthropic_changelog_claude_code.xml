@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 20:31:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 00:20:27 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2301,6 +2301,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21139</guid>
       <category>Changelog</category>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.140</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21140</link>
+      <description>&lt;ul&gt;&lt;li&gt;Improved Agent tool `subagent_type` matching to accept case- and separator-insensitive values (e.g. `"Code Reviewer"` resolves to `code-reviewer`)&lt;/li&gt;&lt;li&gt;Updated agent color palette&lt;/li&gt;&lt;li&gt;Fixed `/goal` silently hanging when `disableAllHooks` or `allowManagedHooksOnly` is set — now shows a clear message instead of an indicator that never resolves&lt;/li&gt;&lt;li&gt;Fixed a regression in settings hot-reload where symlinked settings files caused misattributed change events and spurious `ConfigChange` hooks&lt;/li&gt;&lt;li&gt;Fixed `claude --bg` failing with "connection dropped mid-request" when the background service was about to idle-exit&lt;/li&gt;&lt;li&gt;Fixed background service startup failing on machines with enterprise endpoint security by allowing more time&lt;/li&gt;&lt;li&gt;Fixed remote managed settings not retrying on 401 — now retries once with a force-refreshed token&lt;/li&gt;&lt;li&gt;Fixed managed `extraKnownMarketplaces` auto-update policy not being persisted to `known_marketplaces.json`&lt;/li&gt;&lt;li&gt;Fixed `/loop` scheduling redundant wakeups to poll for background tasks that already notify on completion&lt;/li&gt;&lt;li&gt;Fixed a recurring event-loop stall on Windows when a missing executable (e.g. `gh`) triggered synchronous `where.exe` re-spawns on every check&lt;/li&gt;&lt;li&gt;Fixed `Read` tool calls failing validation when `offset` is passed as a whitespace-padded or `+`-prefixed string&lt;/li&gt;&lt;li&gt;Fixed native terminal cursor not staying at the input caret when the terminal loses focus&lt;/li&gt;&lt;li&gt;Plugins now warn when a default component folder (e.g. `commands/`) is silently ignored because `plugin.json` sets the matching key. Shown in `/doctor`, `claude plugin list`, and `/plugin`.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21140</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
