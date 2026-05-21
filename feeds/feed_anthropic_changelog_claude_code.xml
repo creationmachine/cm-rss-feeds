@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 21 May 2026 00:22:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 05:20:46 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2349,6 +2349,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21145</guid>
       <category>Changelog</category>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.146</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21146</link>
+      <description>&lt;ul&gt;&lt;li&gt;Renamed `/simplify` to `/code-review` with an optional effort level (e.g. `/code-review high`)&lt;/li&gt;&lt;li&gt;Auto mode no longer suppresses `AskUserQuestion` when the user or a skill explicitly relies on it&lt;/li&gt;&lt;li&gt;Fixed Windows PowerShell tool failing with "command line is invalid" when `pwsh` is installed via winget or the Microsoft Store (regression in v2.1.124)&lt;/li&gt;&lt;li&gt;Fixed MCP `resources/list`, `resources/templates/list`, and `prompts/list` dropping items past page 1 on paginating servers&lt;/li&gt;&lt;li&gt;Fixed full-screen strobing in attached background sessions on Windows Terminal while Claude is streaming&lt;/li&gt;&lt;li&gt;Fixed the auto-updater status line not showing your current version when an update fails&lt;/li&gt;&lt;li&gt;Fixed on Windows, removing a background-job worktree no longer follows NTFS junctions into the main repo&lt;/li&gt;&lt;li&gt;Fixed `/background` refusing sessions whose only typed input was a skill or custom slash command&lt;/li&gt;&lt;li&gt;Fixed backgrounded sessions re-prompting for tool permissions you already granted with "don't ask again"&lt;/li&gt;&lt;li&gt;Fixed `/theme` color editor and "New custom theme" dialogs not responding to Esc&lt;/li&gt;&lt;li&gt;Fixed an uncaught exception at the end of streaming sessions when running via the Agent SDK&lt;/li&gt;&lt;li&gt;Fixed `forceLoginOrgUUID` and `forceLoginMethod` managed-settings policies not being enforced against third-party-provider and API-key sessions&lt;/li&gt;&lt;li&gt;Fixed GNOME Terminal right-click and middle-click paste not inserting text&lt;/li&gt;&lt;li&gt;Fixed `CLAUDE_CODE_SUBAGENT_MODEL` not being forwarded to child processes in multi-agent sessions&lt;/li&gt;&lt;li&gt;Improved auto-updater reliability: native version checks and downloads now retry transient network failures instead of failing immediately&lt;/li&gt;&lt;li&gt;Improved diff rendering performance for large file edits&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21146</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
