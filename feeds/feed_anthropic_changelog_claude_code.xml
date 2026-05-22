@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 00:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 05:16:23 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2357,6 +2357,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21147</guid>
       <category>Changelog</category>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.148</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21148</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21148</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
