@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2026 16:41:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 20:28:45 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1725,6 +1725,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/widening-conversation-ai</guid>
       <category>Announcements</category>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"</title>
+      <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
+      <description>Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
