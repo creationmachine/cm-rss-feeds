@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 09:07:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 13:03:53 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1741,6 +1741,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</guid>
       <category>Announcements</category>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic opens Milan office to support Italian enterprise, research, and developers</title>
+      <link>https://www.anthropic.com/news/milan-office-opening</link>
+      <description>Anthropic opens Milan office to support Italian enterprise, research, and developers</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/milan-office-opening</guid>
+      <category>Announcements</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
