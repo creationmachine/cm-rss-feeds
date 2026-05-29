@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 00:23:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 05:22:57 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2405,6 +2405,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21154</guid>
       <category>Changelog</category>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.156</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21156</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21156</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
