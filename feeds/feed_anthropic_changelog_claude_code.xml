@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 30 May 2026 00:21:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 05:13:35 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2421,6 +2421,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21157</guid>
       <category>Changelog</category>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.158</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21158</link>
+      <description>&lt;ul&gt;&lt;li&gt;Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting `CLAUDE_CODE_ENABLE_AUTO_MODE=1`&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21158</guid>
+      <category>Changelog</category>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
