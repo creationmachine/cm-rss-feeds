@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 13:51:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 18:00:18 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1765,6 +1765,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
       <category>Product</category>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic confidentially submits draft S-1 to the SEC</title>
+      <link>https://www.anthropic.com/news/confidential-draft-s1-sec</link>
+      <description>Anthropic confidentially submits draft S-1 to the SEC</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/confidential-draft-s1-sec</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
