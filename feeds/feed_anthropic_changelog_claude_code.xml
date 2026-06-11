@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 05:29:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 09:22:29 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2525,6 +2525,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21172</guid>
       <category>Changelog</category>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.173</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21173</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed Fable 5 model names with a `[1m]` suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically&lt;/li&gt;&lt;li&gt;Fixed a spurious "sandbox dependencies missing" startup warning on Windows when sandbox was enabled in settings&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21173</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
