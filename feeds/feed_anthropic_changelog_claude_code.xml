@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 00:28:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 05:31:15 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2533,6 +2533,22 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21173</guid>
       <category>Changelog</category>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.174</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21174</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `wheelScrollAccelerationEnabled` setting to disable mouse-wheel scroll acceleration in fullscreen mode&lt;/li&gt;&lt;li&gt;Fixed the `/model` picker hiding the model family that Default resolves to — Opus now appears as its own row on Max/Team Premium/Enterprise plans, Sonnet on Pro/Team plans, and Opus on pay-as-you-go API accounts&lt;/li&gt;&lt;li&gt;Fixed `/model` picker showing a hardcoded Sonnet version label when `ANTHROPIC_DEFAULT_SONNET_MODEL` pins a different Sonnet&lt;/li&gt;&lt;li&gt;Fixed the "Fable 5 is now consuming usage credits" banner incorrectly showing for enterprise accounts with usage-based billing&lt;/li&gt;&lt;li&gt;Fixed Bedrock GovCloud regions (`us-gov-*`) deriving the wrong inference profile prefix (`global` instead of `us-gov`), causing 400 errors on derived model IDs&lt;/li&gt;&lt;li&gt;Fixed background sessions inheriting another session's `ANTHROPIC_*` provider env (gateway URL, custom headers, `/model` aliases) from the shell that started the background daemon&lt;/li&gt;&lt;li&gt;Fixed a 1-2 second pause when exiting Claude Code shortly after a shell command was interrupted or killed on macOS and Linux&lt;/li&gt;&lt;li&gt;Fixed git commit co-author attribution showing an incorrect model name for some models&lt;/li&gt;&lt;li&gt;Fixed the `/advisor` dialog pre-selecting a saved advisor model that is blocked by the `availableModels` allowlist&lt;/li&gt;&lt;li&gt;Fixed skill hot-reload re-sending the entire skill listing when a single skill changed; only changed skills are now re-announced&lt;/li&gt;&lt;li&gt;Fixed Workflow tool `agent()` subagents missing per-agent attribution headers&lt;/li&gt;&lt;li&gt;[VSCode] Added usage attribution to the Account &amp; usage dialog (`/usage`) showing cache misses, long context, subagents, and per-skill/agent/plugin/MCP breakdowns over the last 24h or 7d&lt;/li&gt;&lt;li&gt;Fixed pre-warmed background workers failing with "Could not resolve authentication method" when claimed after sitting idle&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21174</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.175</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21175</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `enforceAvailableModels` managed setting — when enabled, the `availableModels` allowlist also constrains the Default model (a Default that would resolve to a disallowed model now falls back to the first allowed model), and user or project settings can no longer widen a managed `availableModels` list&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21175</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
