@@ -13,7 +13,14 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 13:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 17:04:50 +0000</lastBuildDate>
+    <item>
+      <title>Frontier Red Team</title>
+      <link>https://www.anthropic.com/research/team/frontier-red-team</link>
+      <description>Frontier Red Team</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
+      <category>Research</category>
+    </item>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -65,14 +72,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/teaching-claude-why</guid>
       <category>Research</category>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>May 14, 2026Policy2028: Two scenarios for global AI leadership</title>
-      <link>https://www.anthropic.com/research/2028-ai-leadership</link>
-      <description>May 14, 2026Policy2028: Two scenarios for global AI leadership</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/2028-ai-leadership</guid>
-      <category>Research</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>May 22, 2026Frontier Red TeamMeasuring LLMs’ ability to develop exploits</title>
@@ -137,6 +136,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
       <category>Research</category>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jun 18, 2026Frontier Red TeamProject Fetch: Phase two</title>
+      <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
+      <description>Jun 18, 2026Frontier Red TeamProject Fetch: Phase two</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
+      <category>Research</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
