@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 20:31:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 00:24:41 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2621,6 +2621,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21190</guid>
       <category>Changelog</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.191</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21191</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `/rewind` support for resuming a conversation from before `/clear` was run&lt;/li&gt;&lt;li&gt;Fixed scroll position jumping to the bottom while reading earlier output during a streaming response&lt;/li&gt;&lt;li&gt;Fixed background agents resurrecting after being stopped — stopping an agent from the tasks panel is now permanent&lt;/li&gt;&lt;li&gt;Fixed `/voice` showing a generic "not available" message when disabled by an organization's policy — it now explains the restriction&lt;/li&gt;&lt;li&gt;Fixed `/login` URL opening truncated in Windows Terminal when it wraps across lines&lt;/li&gt;&lt;li&gt;Fixed Cmd+click on links in fullscreen mode for Ghostty over ssh/tmux&lt;/li&gt;&lt;li&gt;Fixed `claude agents` sending builtin slash commands like `/usage` to background sessions as prompt text instead of showing a hint&lt;/li&gt;&lt;li&gt;Fixed `claude agents` job rows showing full filesystem paths for pasted images instead of the `[Image #N]` placeholder&lt;/li&gt;&lt;li&gt;Fixed hooks with comma-separated matchers (e.g. `"Bash,PowerShell"`) silently never firing&lt;/li&gt;&lt;li&gt;Fixed `/permissions` Recently-denied tab: approving a denial now persists on close instead of being silently discarded&lt;/li&gt;&lt;li&gt;Fixed the agent panel jumping by one row when scrolling the roster past the overflow cap&lt;/li&gt;&lt;li&gt;Fixed the welcome splash art overflowing the default 80×24 macOS Terminal window&lt;/li&gt;&lt;li&gt;Fixed managed settings: `forceRemoteSettingsRefresh` now takes effect when set via MDM or file policy, and the fetch sends `Cache-Control: no-cache` to prevent proxies from serving stale responses&lt;/li&gt;&lt;li&gt;Improved sandbox network permission dialog: hosts you allow with "Yes" are now remembered for the rest of the session instead of re-prompting on every connection&lt;/li&gt;&lt;li&gt;Improved MCP server reliability: capability discovery (`tools/list`, `prompts/list`, `resources/list`) now retries transient network errors with short backoff&lt;/li&gt;&lt;li&gt;Improved MCP OAuth: discovery and token requests now retry once after transient network errors, and headless environments skip the browser popup and go straight to the paste-the-URL prompt&lt;/li&gt;&lt;li&gt;Improved MCP error messages: HTTP 404 errors now show the URL and point to your MCP config&lt;/li&gt;&lt;li&gt;Improved vim mode prompt-history search (NORMAL `/`) to hint how to reach slash commands&lt;/li&gt;&lt;li&gt;Reduced CPU usage during streaming responses by ~37% by coalescing text updates to 100ms&lt;/li&gt;&lt;li&gt;Reduced long-session memory growth from terminal output cache&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21191</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
