@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 20:30:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 00:23:33 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2637,6 +2637,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21193</guid>
       <category>Changelog</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.195</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21195</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll&lt;/li&gt;&lt;li&gt;Fixed hook matchers with hyphenated identifiers (e.g. `code-reviewer`, `mcp__brave-search`) accidentally substring-matching — they now exact-match. Use `mcp__brave-search__.*` to match all tools from a hyphenated MCP server.&lt;/li&gt;&lt;li&gt;Fixed voice dictation on macOS capturing silence in long-running sessions after the default input device changes&lt;/li&gt;&lt;li&gt;Fixed voice dictation auto-submit never firing for languages written without spaces (Japanese, Chinese, Thai)&lt;/li&gt;&lt;li&gt;Fixed external plugins enabled only by project `.claude/settings.json` not requiring explicit install consent on every loader path&lt;/li&gt;&lt;li&gt;Fixed `/plugin` Enable/Disable not working when a plugin's `plugin.json` `name` differs from its marketplace entry name&lt;/li&gt;&lt;li&gt;Fixed background jobs disappearing from `claude agents` or losing data when written by a newer Claude Code version&lt;/li&gt;&lt;li&gt;Fixed reopening a crashed background task showing a blank screen for up to 5 seconds instead of its restart&lt;/li&gt;&lt;li&gt;Fixed background agent daemons running unreachable when the control socket fails to start, blocking restarts&lt;/li&gt;&lt;li&gt;Improved voice mode on Linux: now distinguishes "no microphone" from "SoX not installed" when SoX is present but no audio capture device exists&lt;/li&gt;&lt;li&gt;Improved `claude agents` completed list to fill available vertical space; on short terminals the header compacts so live sessions stay visible&lt;/li&gt;&lt;li&gt;Improved Remote session startup with a provisioning checklist while the container starts&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21195</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
