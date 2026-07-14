@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 16:59:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 20:48:35 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1537,7 +1537,7 @@
     <item>
       <title>v2.1.15</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added deprecation notification for npm installations - run `claude install` or see https://docs.anthropic.com/en/docs/claude-code/getting-started for more options&lt;/li&gt;&lt;li&gt;Improved UI rendering performance with React Compiler&lt;/li&gt;&lt;li&gt;Fixed the "Context left until auto-compact" warning not disappearing after running `/compact`&lt;/li&gt;&lt;li&gt;Fixed MCP stdio server timeout not killing child process, which could cause UI freezes&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;Added deprecation notification for npm installations - run `claude install` or see https://code.claude.com/docs/en/setup for more options&lt;/li&gt;&lt;li&gt;Improved UI rendering performance with React Compiler&lt;/li&gt;&lt;li&gt;Fixed the "Context left until auto-compact" warning not disappearing after running `/compact`&lt;/li&gt;&lt;li&gt;Fixed MCP stdio server timeout not killing child process, which could cause UI freezes&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115</guid>
       <category>Changelog</category>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
