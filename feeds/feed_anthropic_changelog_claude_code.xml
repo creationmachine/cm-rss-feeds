@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 06:02:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 09:42:42 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2749,6 +2749,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21208</guid>
       <category>Changelog</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.209</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21209</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed /model and other dialogs being blocked in `claude agents` background sessions (reverts an overly broad guard)&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21209</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
