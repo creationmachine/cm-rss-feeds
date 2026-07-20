@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 13:43:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 17:17:26 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1957,6 +1957,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-teachers</guid>
       <category>Product</category>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
+      <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
+      <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/rare-disease-research-grants</guid>
+      <category>Announcements</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
