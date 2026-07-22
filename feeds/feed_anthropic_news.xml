@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 20:57:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:18:39 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1109,6 +1109,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-haiku-4-5</guid>
       <category>Product</category>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agent Skills</title>
+      <link>https://www.anthropic.com/news/skills</link>
+      <description>Introducing Agent Skills</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/skills</guid>
+      <category>Product</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude for Life Sciences</title>
