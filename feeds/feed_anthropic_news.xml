@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 06:21:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 10:11:51 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1973,6 +1973,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/rare-disease-research-grants</guid>
       <category>Announcements</category>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic is donating another $20 million to Public First Action</title>
+      <link>https://www.anthropic.com/news/donation-public-first-action</link>
+      <description>Anthropic is donating another $20 million to Public First Action</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/donation-public-first-action</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
