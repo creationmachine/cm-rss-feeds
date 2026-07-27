@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 14:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 17:27:49 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1663,14 +1663,6 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[dev] Claude for Creative Work</title>
-      <link>https://www.anthropic.com/news/claude-for-creative-work-dev</link>
-      <description>[dev] Claude for Creative Work</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-creative-work-dev</guid>
-      <category>Announcements</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude for Creative Work</title>
       <link>https://www.anthropic.com/news/claude-for-creative-work</link>
       <description>Claude for Creative Work</description>
@@ -2013,6 +2005,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-5</guid>
       <category>Product</category>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
+      <link>https://www.anthropic.com/news/cognizant-anthropic</link>
+      <description>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-anthropic</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
