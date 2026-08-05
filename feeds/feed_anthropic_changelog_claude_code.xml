@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 21:00:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 01:17:47 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -2845,6 +2845,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21221</guid>
       <category>Changelog</category>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.1.222</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21222</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash in every session type&lt;/li&gt;&lt;li&gt;Fixed PreToolUse auto-allow hooks bypassing tool restrictions in background agent tasks (summaries, compaction, renames)&lt;/li&gt;&lt;li&gt;Fixed `/usage-credits` on Team and Enterprise showing "you've already sent a usage credit request" for members whose earlier request was dismissed, blocking them from sending a new one&lt;/li&gt;&lt;li&gt;Fixed the startup connectivity check hanging and then failing behind an HTTPS proxy; it now uses the same proxy-aware transport as API requests and times out with a clear message&lt;/li&gt;&lt;li&gt;Fixed "Connection closed mid-response" errors being reported on responses that had actually completed&lt;/li&gt;&lt;li&gt;Fixed `/usage` overattributing usage to MCP servers: a server's share now reflects only the requests that actually consumed its tool results, instead of every turn after any call to it&lt;/li&gt;&lt;li&gt;Fixed sessions not linking to pull requests created after the branch was pushed, including through the GitHub REST API&lt;/li&gt;&lt;li&gt;Fixed org-restricted `model: opus`-style subagent and teammate family aliases dropping to the parent model instead of stepping down to the newest org-allowed model in the family&lt;/li&gt;&lt;li&gt;Fixed stream idle timeout firing on custom `ANTHROPIC_BASE_URL` gateways despite server keep-alive pings arriving on the wire&lt;/li&gt;&lt;li&gt;Fixed claude.ai connectors being falsely marked as needing authorization when the session token is invalid — they now show a `/login` hint instead&lt;/li&gt;&lt;li&gt;Fixed tool errors not being displayed for tools no longer available locally, for example after an MCP server is removed&lt;/li&gt;&lt;li&gt;Fixed `SendMessage` rejecting a long summary — it now truncates instead, so sends no longer fail on a character limit&lt;/li&gt;&lt;li&gt;Fixed the spinner's effort label in a subagent's transcript view showing the session's effort level instead of the subagent's own `effort:` setting&lt;/li&gt;&lt;li&gt;Fixed rare crashes when a file watcher hit a filesystem error or during file-watcher teardown&lt;/li&gt;&lt;li&gt;Fixed screen readers re-reading the whole input line on every backspace in `--ax-screen-reader` mode — end-of-line deletions now echo just the deleted characters&lt;/li&gt;&lt;li&gt;Fixed host model-selection keys not taking precedence over a stale on-disk `managed-settings.json` when `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST` is set&lt;/li&gt;&lt;li&gt;Improved auto mode safety: messages sent to other agent sessions via `SendMessage` are now evaluated by the permission classifier before dispatch&lt;/li&gt;&lt;li&gt;Improved the refusal when Claude tries to invoke a skill with `disable-model-invocation`: Claude is now told to ask you to run the skill instead of replicating its workflow&lt;/li&gt;&lt;li&gt;Improved the `/diff` view, the Remote Control workspace diff, and file-edit diffs in Claude Code on the web sessions to use raw git blob content, ignoring workspace-configured diff drivers and textconv&lt;/li&gt;&lt;li&gt;Changed Remote Control auto-start so repo-local settings (`.claude/settings.json` or `.claude/settings.local.json`) can no longer turn it on (they can still turn it off); enable it at user scope via `/config`&lt;/li&gt;&lt;li&gt;Removed ultraplan feature&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21222</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
